@@ -1,0 +1,326 @@
+body {
+background-color:#111111c7;
+background-repeat: no-repeat;
+padding: 0 0 0;
+
+margin-right: -2%;
+margin-left: -2%;
+margin-top:-0.2%;
+}
+.albums{
+font-size: 40px;
+color: white;
+font-family:chiller;
+margin-left: 100px;
+color:Red;
+margin-top:20px;
+margin-bottom: 10px;
+}
+
+
+
+#img{
+	float: left;
+	
+}
+
+
+
+.travis{
+	float:left;
+	width:20px;
+	height: 20px;
+	margin-left: 0%;
+}
+.top-side .bars{
+	margin-right: 100px;
+	
+}
+
+.top-side .bars li{
+	float:right;
+	text-align: right;
+	margin-left: 5%;
+	margin-top: 20px;
+	color: red;
+	list-style-type: none;
+	padding: 20px 20px;
+	height: 20px;
+
+}
+.top-side .bars li:hover{
+
+	background-color:white;
+	
+	
+}
+.active,.bars li :hover{
+	background-color: white;
+}
+
+.letter {
+    float:left;
+    margin-left:50px;
+	padding-left:80px; 
+	margin-top:5px;
+	color:#f3f4f7;
+	
+}
+
+.fas {
+
+	color: #df1010;
+	font-size:20px;
+	margin-right: 5px;
+}
+.far{
+	color:#df1010;
+	font-size:20px;
+	margin-right: 5px;
+}
+fad{
+	size:10px;
+	color: #df1010;
+	font-size:20px;
+	margin-right: 5px;
+}
+p{
+	margin: 50px ;
+	padding: 30px;
+	float: right;
+	height: 200px;
+	width: 400px;
+	border: 5px solid #000000;
+
+
+}
+
+.top-side{
+
+	height: 100px;
+	margin-left: 0px;
+	margin-right: -9px;
+
+	width:1400px;
+	background-color:#000000 ;
+   
+}
+@keyframes slider{
+
+0%{
+
+	left:0;
+}
+
+20%{
+
+	left:0;
+}
+
+25%{
+	left:  -100%;
+}
+45%{
+
+	left: -100%;
+}
+
+50%{
+
+	left:-200%;
+}
+70%{
+
+	left: -200%;
+}
+
+75%{
+    left:-300%;
+}
+
+95%{
+    left:-300%;
+}
+100%{
+    left:-400%;
+}
+}
+
+#slider{
+
+    overflow:hidden;
+   
+
+    }
+  
+#slider figure img{
+	width: 20%;
+	float:left;	
+	
+	
+
+}
+#slider figure img:hover{
+	border: 3px solid rgb(248, 248, 248);
+}
+#slider figure{
+	position: relative;
+	width:500%;
+	margin:0;
+	left: 0;
+	text-align: left;
+	font-size:0;
+	animation : 20s slider infinite;
+}
+
+.container{
+
+margin-left: 5%;
+margin-bottom: 5%;
+margin-right: 30px;
+height:500px;
+padding:10px 10px 10px 10px;
+background-color: #f3f4f7;
+float:left;
+width:300px;
+
+}
+.container2 ul{
+	margin-top: 0px;
+}
+.container2{
+	margin-left: 0%;
+	margin-bottom: 5%;
+	margin-right:30px;
+	height:500px;
+	float: left;
+	width:300px;
+	background-color: #f3f4f7;
+	padding:10px 10px 10px 10px;
+
+}
+.onipa{
+
+margin-bottom: 5%;
+margin-right: 30px;
+height:500px;
+padding:10px 10px 10px 10px;
+background-color: #f3f4f7;
+float:left;
+width:300px;
+}
+
+#oni{
+	margin-left:30px;
+}
+#astro{
+	margin-left: 30px;
+}
+
+.logo{
+
+	width:100px;
+	background-image:url(wix.gif);
+}
+.lower{
+	background-color: aliceblue;
+	
+}
+#slider .header h1{
+	margin-bottom: 20%;
+}
+.last{
+	margin-top: 10px;
+	float:left;
+	font-size:30px;
+	margin-left: 100px;
+	color:white;
+}
+.left-nav{
+
+margin-left:60px;
+margin-top: 20px;
+
+
+}
+
+#stream .checked{
+	color:#df1010;
+	size:20px;
+	margin-right: 5px;
+}
+  /* STYLES SPECIFIC TO FOOTER  */
+  .footer {
+	width: 100%;
+	background-color: #070617;
+	height:120px;
+	margin-top: 50%;
+  }
+  .footer .col {
+	width: 190px;
+	
+	float: left;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding: 0px 20px 20px 20px;
+  }
+  .footer .col h1 {
+	margin: 0;
+	padding: 0;
+	font-family: inherit;
+	font-size: 12px;
+	line-height: 17px;
+	padding: 20px 0px 5px 0px;
+	color: rgba(255,255,255,0.2);
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 0.250em;
+
+  }
+  .footer .col ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
+  .footer .col ul li {
+	color: #999999;
+	font-size: 14px;
+	font-family: inherit;
+	font-weight: bold;
+	padding: 5px 0px 5px 0px;
+	cursor: pointer;
+	transition: .2s;
+	-webkit-transition: .2s;
+	-moz-transition: .2s;
+  }
+  .social ul li {
+	display: inline-block;
+	padding-right: 5px !important;
+  }
+  
+  .footer .col ul li:hover {
+	color: #ffffff;
+	transition: .1s;
+	-webkit-transition: .1s;
+	-moz-transition: .1s;
+  }
+  .clearfix {
+	clear: both;
+  }
+  
+ 
+	.social h1 {
+	  margin: 0px;
+	}
+  
+
+	
+	.footer .col h1 {
+	  font-size: 14px;
+	}
+	.footer .col ul li {
+	  font-size: 13px;
+	}
+  
+  
